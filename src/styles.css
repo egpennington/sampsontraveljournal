@@ -1,0 +1,155 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 0 1em;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #f55a5a;
+  color: #fff;
+  padding: 10px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+}
+
+.logo {
+  width: 3em;
+  border-radius: 10px;
+}
+
+.title-main {
+  font-size: 2rem;
+  text-transform: lowercase;
+}
+
+.trip-logo {
+  width: 6rem;
+}
+
+.entry {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+  gap: 1em;
+}
+
+.location-card {
+  padding: 15px;
+}
+
+.location-img-container {
+  width: 12.5em;
+  height: 16.8em;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-left: 1.9em;
+}
+
+.location-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.location-marker {
+  width: 0.7em;
+  margin-right: 5px;
+}
+
+.location-place {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.location-card a {
+  color: #2b283a;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.location-card a:visited {
+  color: #918e9b;
+}
+
+.location-title {
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+  font-size: 2.5rem;
+}
+
+.location-date {
+  font-weight: bold;
+  margin-bottom: 0.7em;
+}
+
+.location-text {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+/* ✅ Mobile Responsive Adjustments */
+@media (max-width: 600px) {
+  .entry {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location-img-container {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .location-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .location-card {
+    padding: 1em;
+    text-align: center;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .trip-logo {
+    width: 4rem;
+  }
+
+  .title-main {
+    font-size: 1.6rem;
+  }
+
+  .logo {
+    width: 2.5em;
+  }
+}
+
+.likeBtn {
+  border: none;
+  background: #fff;
+}
