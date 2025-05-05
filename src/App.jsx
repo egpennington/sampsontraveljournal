@@ -1,6 +1,7 @@
 import Header from "/components/Header"
 import Entry from "/components/Entry"
 import travelData from "./travelData"
+import Footer from "../components/Footer"
 
 export default function App() {
   
@@ -24,6 +25,8 @@ export default function App() {
       <Header />
       
       {travelElements}
+
+      <Footer />
     </>
   )
 }
