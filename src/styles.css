@@ -242,6 +242,22 @@ body {
   background: #666;
 }
 
+.splash-screen {
+  height: 100vh;
+  width: 100%;
+  background: #FDEED5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.splash-image {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
 
 
 
