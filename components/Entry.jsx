@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react"
 
 export default function Entry(props) {
+
   const [likes, setLikes] = useState(12)
   const entryRef = useRef(null)
   const audioRef = useRef(null)
@@ -8,7 +9,7 @@ export default function Entry(props) {
   const [showPlayButton, setShowPlayButton] = useState(false)
 
   useEffect(() => {
-    if (props.id !== "17") return
+    if (props.post.id !== "17") return
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -31,7 +32,7 @@ export default function Entry(props) {
     return () => {
       if (entryRef.current) observer.unobserve(entryRef.current)
     }
-  }, [props.id])
+  }, [props.post.id])
 
   const handleManualPlay = () => {
     audioRef.current?.play()
@@ -40,27 +41,27 @@ export default function Entry(props) {
 
   return (
     <article
-      id={`entry-${props.id}`}
-      className={props.id === "17" && isVisible ? "entry fade-in" : "entry"}
-      ref={props.id === "17" ? entryRef : null}
+      id={`entry-${props.post.id}`}
+      className={props.post.id === "17" && isVisible ? "entry fade-in" : "entry"}
+      ref={props.post.id === "17" ? entryRef : null}
     >
       <div className="location-img-container">
-        <img src={props.img.src} className="location-img" />
+        <img src={props.post.img.src} className="location-img" />
       </div>
 
       <div className="location-card">
         <img src="./images/marker.png" className="location-marker" alt="map marker icon" />
-        <span className="location-place">{props.country}</span>
-        <a href={props.googleMap} target="_blank">View on Google Maps</a>
-        <h2 className="location-title">{props.title}</h2>
-        <p className="location-date">{props.date}</p>
-        <p className="location-text">{props.text}</p>
+        <span className="location-place">{props.post.country}</span>
+        <a href={props.post.googleMap} target="_blank">View on Google Maps</a>
+        <h2 className="location-title">{props.post.title}</h2>
+        <p className="location-date">{props.post.date}</p>
+        <p className="location-text">{props.post.text}</p>
 
         <button className="likeBtn" onClick={() => setLikes(likes + 1)}>
           ❤️ {likes}
         </button>        
 
-        {props.id === "17" && (
+        {props.post.id === "17" && (
           <>
             <audio ref={audioRef} src="/music/LeanOnMe.mp3" />
             {showPlayButton && (

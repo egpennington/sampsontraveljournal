@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import MainApp from './App' // rename your actual main app if needed
+import MainApp from './App'
 
 export default function SplashPage() {
   const [showSplash, setShowSplash] = useState(true)

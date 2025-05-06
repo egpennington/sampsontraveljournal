@@ -22,16 +22,10 @@ export default function App() {
   const travelElements = travelData.map((post) => (
     <Entry 
       key={post.id}
-      id={post.id}
-      img={post.img}
-      title={post.title}
-      country={post.country}
-      googleMap={post.googleMapsLink}
-      date={post.dates}
-      text={post.text}
+      post={post}
     />
   ))
-
+  
   return (
     <> 
       <Header />
