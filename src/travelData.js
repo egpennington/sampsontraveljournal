@@ -2,7 +2,7 @@ export default [
     {
         id: 0,
         img: {
-            src: "./src/assets/images/sampson/austin0.jpg",
+            src: "./images/sampson/austin0.jpg",
             alt: "Sampson the Bulldog"
         },
         title: "My Travel Journal",
@@ -14,7 +14,7 @@ export default [
     {
         id: 1,
         img: {
-            src: "./src/assets/images/sampson/austin.jpg",
+            src: "/images/sampson/austin.jpg",
             alt: "Austin, Texas"
         },
         title: "Austin",
@@ -26,7 +26,7 @@ export default [
     {
         id: "2",
         img: {
-            src: "./src/assets/images/sampson/galveston0.jpg",
+            src: "/images/sampson/galveston0.jpg",
             alt: "Galveston Bay, Texas"
         },
         title: "Galveston Bay",
@@ -38,7 +38,7 @@ export default [
     {
         id: "2a",
         img: {
-            src: "./src/assets/images/sampson/texasRiding.jpg",
+            src: "/images/sampson/texasRiding.jpg",
             alt: "Sampson loving a truck ride in Galveston"
         },
         title: "Window Down, Tongue Out",
@@ -50,7 +50,7 @@ export default [
     {
         id: "2b",
         img: {
-            src: "./src/assets/images/sampson/texasStroll.jpg",
+            src: "/images/sampson/texasStroll.jpg",
             alt: "Sampson walking down a sunny sidewalk in Galveston"
         },
         title: "Neighborhood Patrol",
@@ -62,7 +62,7 @@ export default [
     {
         id: "2c",
         img: {
-            src: "./src/assets/images/sampson/texasFamily.jpg",
+            src: "/images/sampson/texasFamily.jpg",
             alt: "Sampson, Henry, and Jasper waiting at the door"
         },
         title: "The Backyard Bunch",
@@ -74,7 +74,7 @@ export default [
     {
         id: "2d",
         img: {
-            src: "./src/assets/images/sampson/texasSunshine.jpg",
+            src: "/images/sampson/texasSunshine.jpg",
             alt: "Sampson looking out the back door one last time"
         },
         title: "One Last Look",
@@ -86,7 +86,7 @@ export default [
     {
         id: "3",
         img: {
-            src: "./src/assets/images/sampson/texasLeaving.jpg",
+            src: "/images/sampson/texasLeaving.jpg",
             alt: "Jasper and Sampson leaving Texas, looking out the car window"
         },
         title: "The Road to Alaska Begins",
@@ -98,7 +98,7 @@ export default [
     {
         id: "3a",
         img: {
-            src: "./src/assets/images/sampson/colorado.jpg",
+            src: "/images/sampson/colorado.jpg",
             alt: "Sampson on a night walk in Colorado"
         },
         title: "Night Stop in Colorado",
@@ -110,7 +110,7 @@ export default [
     {
         id: "4",
         img: {
-            src: "./src/assets/images/sampson/calgary.jpg",
+            src: "/images/sampson/calgary.jpg",
             alt: "Sampson standing in the snowy car with Jasper behind him"
         },
         title: "Hello, Calgary!",
@@ -122,7 +122,7 @@ export default [
     {
         id: "4a",
         img: {
-            src: "./src/assets/images/sampson/edmontonCanada.jpg",
+            src: "/images/sampson/edmontonCanada.jpg",
             alt: "Sampson resting his head on the edge of the bed in Edmonton"
         },
         title: "Edmonton Pillow Patrol",
@@ -134,7 +134,7 @@ export default [
     {
         id: "5",
         img: {
-            src: "./src/assets/images/sampson/fortNelsonBritishColumbia.jpg",
+            src: "/images/sampson/fortNelsonBritishColumbia.jpg",
             alt: "Sampson and Jasper napping on a hotel bed in Fort Nelson"
         },
         title: "Fort Nelson Shut-Eye",
@@ -146,7 +146,7 @@ export default [
     {
         id: "6",
         img: {
-            src: "./src/assets/images/sampson/whiteHorseYukonCanada.jpg",
+            src: "/images/sampson/whiteHorseYukonCanada.jpg",
             alt: "Sampson walking in the snow in Whitehorse, Yukon"
         },
         title: "Yukon Grit",
@@ -158,7 +158,7 @@ export default [
     {
         id: "7",
         img: {
-            src: "./src/assets/images/sampson/theYukon.jpg",
+            src: "/images/sampson/theYukon.jpg",
             alt: "Sampson wrapped in a blanket resting beside Jasper in the Yukon"
         },
         title: "Almost There",
@@ -170,7 +170,7 @@ export default [
     {
         id: "8",
         img: {
-            src: "./src/assets/images/sampson/ancorageAlaska.jpg",
+            src: "/images/sampson/ancorageAlaska.jpg",
             alt: "Sampson looking out the front window with Alaska mountains in the background"
         },
         title: "Eyes on Anchorage",
@@ -182,7 +182,7 @@ export default [
     {
         id: "9",
         img: {
-            src: "./src/assets/images/sampson/kenaiArrive.jpg",
+            src: "/images/sampson/kenaiArrive.jpg",
             alt: "Sampson walking through snow in Kenai, Alaska"
         },
         title: "Just Me and the Snow",
@@ -194,7 +194,7 @@ export default [
     {
         id: "10",
         img: {
-            src: "./src/assets/images/sampson/kenaiSleep.jpg",
+            src: "/images/sampson/kenaiSleep.jpg",
             alt: "Sampson and Jasper sleeping on a couch in a rental home in Kenai"
         },
         title: "First Couch, First Nap",
@@ -206,7 +206,7 @@ export default [
     {
         id: "11",
         img: {
-            src: "./src/assets/images/sampson/twoChillBros.jpg",
+            src: "/images/sampson/twoChillBros.jpg",
             alt: "Sampson and Henry resting on the couch in their new home"
         },
         title: "Two Chill Bros",
@@ -218,7 +218,7 @@ export default [
     {
         id: "12",
         img: {
-            src: "./src/assets/images/sampson/myNewHome.jpg",
+            src: "/images/sampson/myNewHome.jpg",
             alt: "Sampson standing quietly inside a pantry cupboard"
         },
         title: "Pantry Time",
@@ -230,7 +230,7 @@ export default [
     {
         id: "13",
         img: {
-            src: "./src/assets/images/sampson/alaskanSummer.jpg",
+            src: "/images/sampson/alaskanSummer.jpg",
             alt: "Sampson walking slowly with the help of his dog wheelchair in the backyard"
         },
         title: "Wheels and Will",
@@ -242,7 +242,7 @@ export default [
     {
         id: "14",
         img: {
-            src: "./src/assets/images/sampson/kenaiLiving.jpg",
+            src: "/images/sampson/kenaiLiving.jpg",
             alt: "Sampson in his wheelchair visiting the pantry one last time"
         },
         title: "Still My Spot",
@@ -254,7 +254,7 @@ export default [
     {
         id: "15",
         img: {
-            src: "./src/assets/images/sampson/alaskaDoctors.jpg",
+            src: "/images/sampson/alaskaDoctors.jpg",
             alt: "Sampson resting in a wagon inside a building, tongue sticking out gently"
         },
         title: "My Kind of Waiting Room",
@@ -266,7 +266,7 @@ export default [
     {
         id: "16",
         img: {
-            src: "./src/assets/images/sampson/alaskaStroll.jpg",
+            src: "/images/sampson/alaskaStroll.jpg",
             alt: "Sampson sitting peacefully in a wagon on the sidewalk, looking ahead"
         },
         title: "The Last Stroll",
@@ -279,7 +279,7 @@ export default [
     {
         id: "17",
         img: {
-            src: "./src/assets/images/sampson/alaskaSleep3.jpg",
+            src: "/images/sampson/alaskaSleep3.jpg",
             alt: "Sampson sleeping peacefully on a cozy blanket"
         },
         title: "Goodnight, Friend",
@@ -287,7 +287,6 @@ export default [
         googleMapsLink: "https://maps.app.goo.gl/uvkTgoY7N3XB57Y58",
         dates: "Now & Always",
         text: "The house was quiet. I had a soft blanket, my favorite people close, and nothing left to chase. I didn’t wonder what came next — I just let my eyes close and knew I was home. If you ever find an old soul like me, hold them close. We don’t ask for much. Just love, a full belly, and someone to walk beside us, all the way to the end. 🐾 — Sampson"
-    }
-    
+    }    
       
 ]

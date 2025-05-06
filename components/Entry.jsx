@@ -61,7 +61,7 @@ export default function Entry(props) {
 
         {props.id === "17" && (
           <>
-            <audio ref={audioRef} src="src/assets/music/LeanOnMe.mp3" />
+            <audio ref={audioRef} src="/music/LeanOnMe.mp3" />
             {showPlayButton && (
               <button className="audio-btn fade-audio-btn" onClick={handleManualPlay}>
                 🎵 Play Sampson’s Song
