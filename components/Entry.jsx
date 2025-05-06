@@ -40,6 +40,7 @@ export default function Entry(props) {
 
   return (
     <article
+      id={`entry-${props.id}`}
       className={props.id === "17" && isVisible ? "entry fade-in" : "entry"}
       ref={props.id === "17" ? entryRef : null}
     >
