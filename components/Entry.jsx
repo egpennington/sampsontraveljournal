@@ -57,8 +57,7 @@ export default function Entry(props) {
 
         <button className="likeBtn" onClick={() => setLikes(likes + 1)}>
           ❤️ {likes}
-        </button>
-        
+        </button>        
 
         {props.id === "17" && (
           <>
