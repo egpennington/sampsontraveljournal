@@ -10,6 +10,7 @@ export default function App() {
     console.log(post.img)
     return (
       <Entry 
+        id={post.id}
         img={post.img}
         title={post.title}
         country={post.country}
