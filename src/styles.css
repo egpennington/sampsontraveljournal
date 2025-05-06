@@ -153,6 +153,7 @@ body {
 .likeBtn {
   border: none;
   background: #fff;
+  margin-bottom: 1em;
 }
 
 /* Footer styles */
