@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react"
 
 export default function Entry(props) {
-  const [likes, setLikes] = useState(0)
+  const [likes, setLikes] = useState(12)
   const entryRef = useRef(null)
   const audioRef = useRef(null)
   const [isVisible, setIsVisible] = useState(false)
