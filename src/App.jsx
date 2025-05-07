@@ -3,6 +3,7 @@ import Header from "/components/Header"
 import Entry from "/components/Entry"
 import travelData from "./travelData"
 import Footer from "../components/Footer"
+import ScrollNav from '../components/ScrollNav'
 
 export default function App() {
   const [showSplash, setShowSplash] = useState(true)
@@ -29,6 +30,7 @@ export default function App() {
   return (
     <> 
       <Header />
+      <ScrollNav />
       {travelElements}
       <Footer />
     </>
