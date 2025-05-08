@@ -2,11 +2,25 @@ import { useState, useRef, useEffect } from "react"
 
 export default function Entry(props) {
 
-  const [likes, setLikes] = useState(12)
+  // const [likes, setLikes] = useState(12)
   const entryRef = useRef(null)
   const audioRef = useRef(null)
   const [isVisible, setIsVisible] = useState(false)
   const [showPlayButton, setShowPlayButton] = useState(false)
+
+  const entryId = props.post.id;
+  const localStorageKey = `sampson_likes_${entryId}`;
+
+  const [likes, setLikes] = useState(() => {
+    const stored = localStorage.getItem(localStorageKey);
+    return stored ? parseInt(stored) : 12;
+  });
+
+  const handleLike = () => {
+    const newLikes = likes + 1;
+    setLikes(newLikes);
+    localStorage.setItem(localStorageKey, newLikes);
+  };
 
   useEffect(() => {
     if (props.post.id !== "17") return
@@ -57,10 +71,24 @@ export default function Entry(props) {
         <p className="location-date">{props.post.date}</p>
         <p className="location-text">{props.post.text}</p>
 
-        <button className="likeBtn" onClick={() => setLikes(likes + 1)}>
-          ❤️ {likes}
-        </button>
-        <hr />     
+        <div className="buttonDiv">
+          {props.post.id !== "17" && (
+            <button
+              className="scroll-down-arrow"
+              onClick={() => {
+                const next = document.getElementById(`entry-${parseInt(props.post.id) + 1}`);
+                if (next) next.scrollIntoView({ behavior: "smooth" });
+              }}
+              aria-label="Scroll to next entry"
+            >
+              <i className="fa-solid fa-angles-down"></i>
+            </button>
+          )}
+
+          <button className="likeBtn" onClick={handleLike}>
+            ❤️ {likes}
+          </button>
+        </div>  
 
         {props.post.id === "17" && (
           <>

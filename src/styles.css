@@ -311,3 +311,55 @@ body {
 .scroll-nav a.scroll-top-link:hover {
   color: #000;
 }
+
+/* Mobile Scroll */
+.buttonDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-top: 1px solid #ddd;
+  position: relative;
+}
+
+/* Center the arrow absolutely */
+.scroll-down-arrow {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.scroll-down-arrow:hover {
+  transform: translateX(-50%) translateY(2px);
+  color: #333;
+}
+
+@media (max-width: 669px) {
+  .scroll-down-arrow {
+    display: block;
+  }
+}
+
+/* Push like button to right */
+.likeBtn {
+  border: none;
+  background: none;
+  font-size: 1.3rem;
+  color: #e63946;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.likeBtn:hover {
+  color: #d62828;
+}
