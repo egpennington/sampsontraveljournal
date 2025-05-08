@@ -36,7 +36,7 @@ export default [
         text: "I moved to the coast and let me tell you — that bay breeze was *delicious*. I’d sit by the water, ears flapping in the wind, dreaming of snacks — or trot around the backyard and check on things. Sometimes I’d take a stroll through the neighborhood, just to see what was new. Galveston Bay is where I learned what it felt like to finally relax."
     },
     {
-        id: "2a",
+        id: "3",
         img: {
             src: "/images/sampson/texasRiding.jpg",
             alt: "Sampson loving a truck ride in Galveston"
@@ -48,7 +48,7 @@ export default [
         text: "Galveston wasn’t just beaches — it was *car rides*. I loved hopping into the red truck, head out the window, ears flapping like a champion. The wind told stories, the road kept moving, and I was right there in the middle of it all. Sometimes it’s not the destination… it’s the ride. Woof!"
     },
     {
-        id: "2b",
+        id: "4",
         img: {
             src: "/images/sampson/texasStroll.jpg",
             alt: "Sampson walking down a sunny sidewalk in Galveston"
@@ -60,7 +60,7 @@ export default [
         text: "Every day in Galveston, I’d stroll the neighborhood like I had a job to do. Front yards, mailboxes, shady spots — I checked it all out. Folks would wave, and I’d give ’em the ol’ bulldog nod. And if I heard kids laughing somewhere nearby, you better believe I headed that way. I don’t know why, but their joy always pulled me in. No rush. No drama. Just me, doing my rounds under the Texas sun."
     },
     {
-        id: "2c",
+        id: "5",
         img: {
             src: "/images/sampson/texasFamily.jpg",
             alt: "Sampson, Henry, and Jasper waiting at the door"
@@ -72,7 +72,7 @@ export default [
         text: "I wasn’t the only dog around here — I had two brothers. Jasper the Goldendoodle was the big guy with curls, and Henry the little Russell Terrier thought he ran the place. We’d tear around the backyard, chase bugs, bark at squirrels, then wait at the door like, 'Hey, let us in — we got stuff to do.' Life’s better with a pack, and these two made it even sweeter."
     },
     {
-        id: "2d",
+        id: "6",
         img: {
             src: "/images/sampson/texasSunshine.jpg",
             alt: "Sampson looking out the back door one last time"
@@ -84,7 +84,7 @@ export default [
         text: "I laid by the back door, looking out at the yard one last time. It was warm, quiet, and familiar. I didn’t know if I’d see it again — the patch of sun I liked, the plants my people talked to, the spot under the bench where I used to lay. Something told me we were packing up for good.\n\nBut I wasn’t scared.\n\nI didn’t know where we were heading. But I knew I wasn’t being left behind. I wasn’t going to another shelter. I wasn’t wondering what came next.\n\nI was going with them.\n\nThat’s all that mattered.\n\nAnd maybe I was like that hobbit from the movie — the one who steps out his front door and into something big. I wasn’t young, but I was ready. I’d had a good run here. The yard was full of memories, the kind that stick in your fur. So I took one last look, not because I was sad… but because I was grateful.\n\nAnd then I got up. We had miles to go, and adventure to find."
     },
     {
-        id: "3",
+        id: "7",
         img: {
             src: "/images/sampson/texasLeaving.jpg",
             alt: "Jasper and Sampson leaving Texas, looking out the car window"
@@ -96,7 +96,7 @@ export default [
         text: "We were packed up and pulling out. Jasper claimed the back window seat — of course — and I settled in beside him, ready for whatever came next. The Texas sun was warm on the glass, but we were headed somewhere cold, far, and wild. I didn’t know the name of the place, but I knew it was ours. I wasn’t being left behind. I was riding forward — old bones, full heart — with my brother beside me and my people leading the way. This was the start of something big."
     },
     {
-        id: "3a",
+        id: "8",
         img: {
             src: "/images/sampson/colorado.jpg",
             alt: "Sampson on a night walk in Colorado"
@@ -108,7 +108,7 @@ export default [
         text: "We pulled into Colorado after a long day on the road. I got out, stretched my legs, and took a few sniffs of that cold mountain air. It was late and quiet, the kind of night where the stars feel close. I didn’t know how far we’d come yet, or how far we still had to go — I just knew this patch of grass was mine for a minute. Then back into the car for more miles. Rest stops, belly rubs, repeat."
     },
     {
-        id: "4",
+        id: "9",
         img: {
             src: "/images/sampson/calgary.jpg",
             alt: "Sampson standing in the snowy car with Jasper behind him"
@@ -120,7 +120,7 @@ export default [
         text: "Well, I made it to Calgary — and stepped into snow for the very first time. Cold on the paws, but I didn’t fuss. I just climbed out, took a sniff, and let the wind hit my face. I had a whole cozy setup in the back of the car: blankets, my leash, a snack ball, and my brother Jasper curled up nearby. I may have been the oldest on the trip… but I was still traveling in style, still holding my own. One stop closer to wherever we were going next."
     },
     {
-        id: "4a",
+        id: "10",
         img: {
             src: "/images/sampson/edmontonCanada.jpg",
             alt: "Sampson resting his head on the edge of the bed in Edmonton"
@@ -132,7 +132,7 @@ export default [
         text: "We made it to Edmonton, and let me tell you — I was ready for a soft surface. After miles of road hum and cold stops, I had one thing on my mind: bed. So I found one, stared it down, and waited. I’m not the kind of dog to jump or beg. I just make my case with a look. And yeah, I got my nap. Jasper was snoring in the corner, and I drifted off dreaming about warm pillows and snack crumbs. That was a good stop."
     },
     {
-        id: "5",
+        id: "11",
         img: {
             src: "/images/sampson/fortNelsonBritishColumbia.jpg",
             alt: "Sampson and Jasper napping on a hotel bed in Fort Nelson"
@@ -144,7 +144,7 @@ export default [
         text: "We rolled into Fort Nelson after another full day on the road. Jasper called dibs on the corner of the bed, but I had my own blanket and wasn’t about to argue. The room was warm, quiet, and smelled like carpet and fries. Perfect. We didn’t do much that night — just climbed up, got settled, and let the tired catch up to us. A bulldog’s gotta rest when the wheels stop turning."
     },
     {
-        id: "6",
+        id: "12",
         img: {
             src: "/images/sampson/whiteHorseYukonCanada.jpg",
             alt: "Sampson walking in the snow in Whitehorse, Yukon"
@@ -156,7 +156,7 @@ export default [
         text: "Whitehorse. Cold, quiet, wide open. We stopped to stretch, and I stepped out into snow deeper than I’d ever seen. It was the kind of cold that hits your nose first — makes you blink, then makes you proud. I didn’t rush. I just took a moment, looked around, and let the wind remind me I was alive. Jasper trotted ahead, but I held back. I was in no hurry. I’d come a long way, and I wanted to feel every second of it under my paws."
     },
     {
-        id: "7",
+        id: "13",
         img: {
             src: "/images/sampson/theYukon.jpg",
             alt: "Sampson wrapped in a blanket resting beside Jasper in the Yukon"
@@ -168,7 +168,7 @@ export default [
         text: "We were close now. Somewhere in the Yukon, just before the border. I had my blanket, my water bowl, and Jasper watching over me from behind. I was tired — not in a bad way, just the kind of tired that means you’ve seen things. Big things. Cold things. Good things. I didn’t know the name of the town we were headed to, but I knew it wasn't the last stop yet. Alaska, here we come."
     },
     {
-        id: "8",
+        id: "14",
         img: {
             src: "/images/sampson/ancorageAlaska.jpg",
             alt: "Sampson looking out the front window with Alaska mountains in the background"
@@ -180,7 +180,7 @@ export default [
         text: "The mountains came into view, and I climbed up to watch. I didn’t bark. I didn’t wag. I just looked. The snow was bluer here, and the air felt like silence. Maybe I saw a moose in the distance — I didn’t say. I was never one to make a scene. I liked to observe. Take it in. This was new land, a big land, and I knew we were close. I didn’t know the name of the place waiting for me… but I could feel it. One more drive. One more nap. Almost home."
     },
     {
-        id: "9",
+        id: "14",
         img: {
             src: "/images/sampson/kenaiArrive.jpg",
             alt: "Sampson walking through snow in Kenai, Alaska"
@@ -192,7 +192,7 @@ export default [
         text: "We pulled into Kenai and stayed at a little Airbnb while we waited for our house. I didn’t know what an Airbnb was — just that it was warm, quiet, and had a front sidewalk covered in snow. I stepped out in my warm green winter coat and looked around. No barking. No leash-pulling. Just a deep breath and cold paws. I wasn’t worried about where we’d go next. I was with my people. I had a full belly. And I didn’t have to wonder if I’d be left behind and never would think about the shelters or the noise or the cold floors ever again. I just stood there and let the wind pass through me. That was enough."
     },
     {
-        id: "10",
+        id: "16",
         img: {
             src: "/images/sampson/kenaiSleep.jpg",
             alt: "Sampson and Jasper sleeping on a couch in a rental home in Kenai"
@@ -204,7 +204,7 @@ export default [
         text: "We weren’t in our new house yet, but this couch would do just fine. Jasper took one end, I took the other, and we both sank into the kind of nap you only get after 3,800 miles of road. It didn’t smell like *our* place yet, but I didn’t worry. My people were still with me. I knew when the time came, they'd open the door to the real thing. And I’d walk through, tail steady, ready."
     },
     {
-        id: "11",
+        id: "17",
         img: {
             src: "/images/sampson/twoChillBros.jpg",
             alt: "Sampson and Henry resting on the couch in their new home"
@@ -216,7 +216,7 @@ export default [
         text: "Home! This couch? Yeah, this one’s mine now. Henry and I spent the afternoon just hanging out, not a care in the world. No more trucks. No more hotel crates. Just sunshine through the window and the soft rumble of someone in the kitchen. I didn’t need to explore every room. I already knew — we were home. And I wasn’t going anywhere."
     },
     {
-        id: "12",
+        id: "18",
         img: {
             src: "/images/sampson/myNewHome.jpg",
             alt: "Sampson standing quietly inside a pantry cupboard"
@@ -228,7 +228,7 @@ export default [
         text: "I found the pantry and stepped in. It was small. Quiet. Just fit me. So I stayed a while. Nobody said anything. The house kept moving. I didn’t. I liked it there."
     },
     {
-        id: "13",
+        id: "19",
         img: {
             src: "/images/sampson/alaskanSummer.jpg",
             alt: "Sampson walking slowly with the help of his dog wheelchair in the backyard"
@@ -240,7 +240,7 @@ export default [
         text: "My back legs weren’t what they used to be, but I never stopped trying. I still swung them like they remembered the rhythm of the trail. My people got me some wheels from K9 Carts, and I rolled out like I always had—just a little different. The grass felt the same. The sun felt good. My body was slower, but my heart still kept pace. And that was enough for me."
     },
     {
-        id: "14",
+        id: "20",
         img: {
             src: "/images/sampson/kenaiLiving.jpg",
             alt: "Sampson in his wheelchair visiting the pantry one last time"
@@ -252,7 +252,7 @@ export default [
         text: "I made it back to the pantry. Took a little more effort this time, but I didn’t mind. Still small. Still quiet. Still mine. Wheels or not, it was where I liked to be. And nobody ever rushed me out. That’s when you know you’re home."
     },
     {
-        id: "15",
+        id: "21",
         img: {
             src: "/images/sampson/alaskaDoctors.jpg",
             alt: "Sampson resting in a wagon inside the doctors office, tongue sticking out gently"
@@ -264,7 +264,7 @@ export default [
         text: "At the Twin Cities Vet Clinic. Here is where Dr. Tabitha and Dr. Deb saved my life once when I almost didn’t make it. So now when I come back, I'm not scared — just quiet. They rolled me in. I rested my head and let the world go on around me. I didn’t bark. Didn’t whimper. Just waited with my tongue out and my heart full. Good place. Good people."
     },
     {
-        id: "16",
+        id: "22",
         img: {
             src: "/images/sampson/alaskaStroll.jpg",
             alt: "Sampson sitting peacefully in a wagon on the sidewalk, looking ahead"
@@ -276,7 +276,7 @@ export default [
         text: "I couldn’t walk anymore, but that didn’t mean I stopped going places. My people pulled me through the neighborhood in a wagon — same breeze, same smells, same love. I didn’t need to see what was next. I just sat back, felt the wind in my ears, and knew I was exactly where I was supposed to be. I was warm. I was full. And I was never alone. If you’re reading this, thanks for walking with me. Every old dog deserves a ride like this. 🐾 – Sampson"
     },
     {
-        id: "17",
+        id: "23",
         img: {
             src: "/images/sampson/alaskaSleep3.jpg",
             alt: "Sampson sleeping peacefully on a cozy blanket"
