@@ -88,6 +88,12 @@ export default function Entry(props) {
           </button>
 
           <button
+            className="scroll-top-button"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            aria-label="Scroll to top"
+          >
+
+          <button
             className="scroll-up-arrow"
             onClick={() => {
               const prev = document.getElementById(`entry-${parseInt(props.post.id) - 1}`);
@@ -97,16 +103,11 @@ export default function Entry(props) {
           >
             <i className="fa-solid fa-angles-up fa-lg"></i>
           </button>
-
-          <button
-            className="scroll-top-button"
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            aria-label="Scroll to top"
-          >
+            
             <i className="fa-solid fa-house fa-lg"></i>
           </button>
+         
         </div>
-
 
         {props.post.id === "23" && (
           <>
