@@ -17,9 +17,11 @@ body {
   background: #fff;
 }
 
+/* Header Styles */
 .header {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas: "logo title trip";
   align-items: center;
   gap: 20px;
   background: #f55a5a;
@@ -30,8 +32,14 @@ body {
 }
 
 .logo {
+  grid-area: logo;
   width: 3em;
   border-radius: 10px;
+}
+
+.title {
+  grid-area: title;
+  text-align: center;
 }
 
 .title-main {
@@ -40,9 +48,38 @@ body {
 }
 
 .trip-logo {
+  grid-area: trip;
   width: 6rem;
 }
 
+@media (max-width: 669px) {
+  .header {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "logo trip"
+      "title title";
+    height: auto;
+    padding: 15px;
+  }
+
+  .title {
+    margin-top: 10px;
+  }
+
+  .title-main {
+    font-size: 1.6rem;
+  }
+
+  .logo {
+    justify-self: start;
+  }
+
+  .trip-logo {
+    justify-self: end;
+  }
+}
+
+/* Entry Component Styles */
 .entry {
   display: flex;
   flex-direction: row;
