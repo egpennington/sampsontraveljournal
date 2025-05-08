@@ -72,23 +72,41 @@ export default function Entry(props) {
         <p className="location-text">{props.post.text}</p>
 
         <div className="buttonDiv">
-          {props.post.id !== "17" && (
-            <button
-              className="scroll-down-arrow"
-              onClick={() => {
-                const next = document.getElementById(`entry-${parseInt(props.post.id) + 1}`);
-                if (next) next.scrollIntoView({ behavior: "smooth" });
-              }}
-              aria-label="Scroll to next entry"
-            >
-              <i className="fa-solid fa-angles-down"></i>
-            </button>
-          )}
-
           <button className="likeBtn" onClick={handleLike}>
             ❤️ {likes}
           </button>
-        </div>  
+
+          <button
+            className="scroll-down-arrow"
+            onClick={() => {
+              const next = document.getElementById(`entry-${parseInt(props.post.id) + 1}`);
+              if (next) next.scrollIntoView({ behavior: "smooth" });
+            }}
+            aria-label="Scroll to next entry"
+          >
+            <i className="fa-solid fa-angles-down fa-lg"></i>
+          </button>
+
+          <button
+            className="scroll-up-arrow"
+            onClick={() => {
+              const prev = document.getElementById(`entry-${parseInt(props.post.id) - 1}`);
+              if (prev) prev.scrollIntoView({ behavior: "smooth" });
+            }}
+            aria-label="Scroll to previous entry"
+          >
+            <i className="fa-solid fa-angles-up fa-lg"></i>
+          </button>
+
+          <button
+            className="scroll-top-button"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            aria-label="Scroll to top"
+          >
+            <i className="fa-solid fa-house fa-lg"></i>
+          </button>
+        </div>
+
 
         {props.post.id === "17" && (
           <>
@@ -101,6 +119,7 @@ export default function Entry(props) {
           </>
         )}
       </div>
+      <hr />
     </article>
   )
 }
