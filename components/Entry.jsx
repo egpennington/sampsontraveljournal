@@ -23,7 +23,7 @@ export default function Entry(props) {
   };
 
   useEffect(() => {
-    if (props.post.id !== "17") return
+    if (props.post.id !== "23") return
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -56,8 +56,8 @@ export default function Entry(props) {
   return (
     <article
       id={`entry-${props.post.id}`}
-      className={props.post.id === "17" && isVisible ? "entry fade-in" : "entry"}
-      ref={props.post.id === "17" ? entryRef : null}
+      className={props.post.id === "23" && isVisible ? "entry fade-in" : "entry"}
+      ref={props.post.id === "23" ? entryRef : null}
     >
       <div className="location-img-container">
         <img src={props.post.img.src} className="location-img" />
@@ -108,7 +108,7 @@ export default function Entry(props) {
         </div>
 
 
-        {props.post.id === "17" && (
+        {props.post.id === "23" && (
           <>
             <audio ref={audioRef} src="/music/LeanOnMe.mp3" />
             {showPlayButton && (
