@@ -2,16 +2,16 @@ import { useState, useEffect } from "react";
 
 const sections = [
   { id: "2", label: "Galveston Bay" },
-  { id: "2b", label: "Neighborhood Patrol" },
-  { id: "2d", label: "One Last Look" },
-  { id: "3a", label: "Colorado Stop" },
-  { id: "4a", label: "Edmonton" },
-  { id: "6", label: "Yukon Border" },
-  { id: "8", label: "Anchorage" },
-  { id: "10", label: "First Couch" },
-  { id: "12", label: "Pantry Time" },
-  { id: "14", label: "Still My Spot" },
-  { id: "16", label: "Last Stroll" },
+  { id: "4", label: "Neighborhood Patrol" },
+  { id: "6", label: "One Last Look" },
+  { id: "8", label: "Colorado Stop" },
+  { id: "10", label: "Edmonton" },
+  { id: "12", label: "Yukon Border" },
+  { id: "14", label: "Anchorage" },
+  { id: "16", label: "First Couch" },
+  { id: "18", label: "Pantry Time" },
+  { id: "20", label: "Still My Spot" },
+  { id: "22", label: "Last Stroll" },
 ];
 
 export default function ScrollNav() {
