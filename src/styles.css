@@ -23,7 +23,7 @@ body {
   grid-template-columns: auto 1fr auto;
   grid-template-areas: "logo title trip";
   align-items: center;
-  gap: 0.8em;
+  
   background: #f55a5a;
   color: #fff;
   padding: 1em;
