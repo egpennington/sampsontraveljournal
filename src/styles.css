@@ -31,7 +31,9 @@ body {
 }
 
 .logo {
-  width: 3em;
+  width: 3.5em;
+  margin-left: -30px;
+  margin-top: 15px;
   border-radius: 10px;
 }
 
@@ -44,19 +46,19 @@ body {
   width: 6rem;
 }
 
-
 /* Mobile grid */
-@media (max-width: 669px) {
+@media (max-width: 469px) {
   .header {
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
     grid-template-areas:
       "title logo trip";
     height: auto;
-    padding: 15px;
+    
   }
 
   .title {
     margin-top: 10px;
+    grid-area: title;
   }
 
   .title-main {
@@ -64,11 +66,11 @@ body {
   }
 
   .logo {
-    justify-self: start;
+    grid-area: logo;
   }
 
   .trip-logo {
-    justify-self: end;
+    grid-area: trip;
   }
 }
 
@@ -136,7 +138,7 @@ body {
   overflow: hidden;
 }
 
-/* ✅ Mobile Responsive Adjustments */
+/* Mobile Responsive for Entry */
 @media (max-width: 600px) {
   .entry {
     flex-direction: column;
@@ -157,26 +159,6 @@ body {
   .location-card {
     padding: 1em;
     text-align: center;
-  }
-
-  .header {
-    flex-direction: column;
-    gap: 10px;
-    height: auto;
-    padding: 15px;
-    text-align: center;
-  }
-
-  .trip-logo {
-    width: 4rem;
-  }
-
-  .title-main {
-    font-size: 1.6rem;
-  }
-
-  .logo {
-    width: 2.5em;
   }
 }
 
