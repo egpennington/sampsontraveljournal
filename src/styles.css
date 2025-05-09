@@ -30,6 +30,7 @@ body {
   height: 6.5em;
   font-family: "Inter", sans-serif;
   border-radius: 10px;
+}
 
 .logo {
   grid-area: logo;
