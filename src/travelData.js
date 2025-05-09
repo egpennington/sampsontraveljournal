@@ -180,7 +180,7 @@ export default [
         text: "The mountains came into view, and I climbed up to watch. I didn’t bark. I didn’t wag. I just looked. The snow was bluer here, and the air felt like silence. Maybe I saw a moose in the distance — I didn’t say. I was never one to make a scene. I liked to observe. Take it in. This was new land, a big land, and I knew we were close. I didn’t know the name of the place waiting for me… but I could feel it. One more drive. One more nap. Almost home."
     },
     {
-        id: "14",
+        id: "15",
         img: {
             src: "/images/sampson/kenaiArrive.jpg",
             alt: "Sampson walking through snow in Kenai, Alaska"
@@ -212,7 +212,7 @@ export default [
         title: "Two Chill Bros",
         country: "United States",
         googleMapsLink: "https://maps.app.goo.gl/sMwYK66J9z8ENKyG6",
-        dates: "03 Feb, 2024",
+        dates: "02 Feb, 2024",
         text: "Home! This couch? Yeah, this one’s mine now. Henry and I spent the afternoon just hanging out, not a care in the world. No more trucks. No more hotel crates. Just sunshine through the window and the soft rumble of someone in the kitchen. I didn’t need to explore every room. I already knew — we were home. And I wasn’t going anywhere."
     },
     {
@@ -224,7 +224,7 @@ export default [
         title: "Pantry Time",
         country: "United States",
         googleMapsLink: "https://maps.app.goo.gl/FjsrJvxb4R6x7569A",
-        dates: "03 Feb, 2024",
+        dates: "04 Feb, 2024",
         text: "I found the pantry and stepped in. It was small. Quiet. Just fit me. So I stayed a while. Nobody said anything. The house kept moving. I didn’t. I liked it there."
     },
     {

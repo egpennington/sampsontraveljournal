@@ -68,7 +68,7 @@ export default function Entry(props) {
         <span className="location-place">{props.post.country}</span>
         <a href={props.post.googleMapsLink} target="_blank">View on Google Maps</a>
         <h2 className="location-title">{props.post.title}</h2>
-        <p className="location-date">{props.post.date}</p>
+        <p className="location-date">{props.post.dates}</p>
         <p className="location-text">{props.post.text}</p>
 
         <div className="buttonDiv">
