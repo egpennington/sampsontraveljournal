@@ -29,8 +29,7 @@ body {
   padding: 1em;
   height: 6.5em;
   font-family: "Inter", sans-serif;
-  border-radius: 6px;
-}
+  border-radius: 10px;
 
 .logo {
   grid-area: logo;
