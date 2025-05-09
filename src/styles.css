@@ -11,7 +11,7 @@ html {
 
 body {
   width: 100%;
-  max-width: 550px;
+  max-width: 750px;
   margin: 0 auto;
   padding: 0 1em;
   background: #fff;
@@ -22,12 +22,11 @@ body {
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-template-areas: "logo title trip";
-  align-items: center;
-  
+  align-items: center;  
   background: #f55a5a;
   color: #fff;
   padding: 1em;
-  height: 6.5em;
+  height: 7em;
   font-family: "Inter", sans-serif;
   border-radius: 10px;
 }
@@ -36,7 +35,7 @@ body {
   grid-area: logo;
   width: 3em;
   border-radius: 10px;
-  margin-left: 2em;
+  margin-left: 2.3em;
 }
 
 .title {
@@ -52,7 +51,7 @@ body {
 .trip-logo {
   grid-area: trip;
   width: 6rem;
-  margin-right: 2em;
+  margin-right: 2.3em;
 }
 
 @media (max-width: 669px) {
