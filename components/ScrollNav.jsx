@@ -47,7 +47,7 @@ export default function ScrollNav() {
           {sec.label}
         </a>
       ))}
-      <a href="#top" className="scroll-top-link">⬆ Back to Top</a>
+      <a href="#top" className="scroll-top-link">⬆ Back to Top ⬆</a>
     </nav>
   );
 }
