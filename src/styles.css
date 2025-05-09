@@ -54,10 +54,9 @@ body {
 
 @media (max-width: 669px) {
   .header {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas:
-      "logo trip"
-      "title title";
+      "logo title trip";
     height: auto;
     padding: 15px;
   }
