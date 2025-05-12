@@ -189,7 +189,7 @@ export default [
         country: "United States",
         googleMapsLink: "https://maps.app.goo.gl/H3SL3QBoPzrHNNDW7",
         dates: "18 Jan, 2024",
-        text: "We pulled into Kenai and stayed at a little Airbnb while we waited for our house. I didn’t know what an Airbnb was — just that it was warm, quiet, and had a front sidewalk covered in snow. I stepped out in my warm green winter coat and looked around. No barking. No leash-pulling. Just a deep breath and cold paws. I wasn’t worried about where we’d go next. I was with my people. I had a full belly. And I didn’t have to wonder if I’d be left behind and never would think about the shelters or the noise or the cold floors ever again. I just stood there and let the wind pass through me. That was enough."
+        text: "After 4,402 miles, we pulled into Kenai and stayed at a little Airbnb while we waited for our house to be ready. I didn’t know what an Airbnb was — just that it was warm, quiet, and had a front sidewalk covered in snow. I stepped out in my warm green winter coat and looked around. No barking. No leash-pulling. Just a deep breath and cold paws. I wasn’t worried about where we’d go next. I was with my people. I had a full belly. And I didn’t have to wonder if I’d be left behind and never would think about the shelters or the noise or the cold floors ever again. I just stood there and let the wind pass through me. That was enough."
     },
     {
         id: "16",
@@ -200,7 +200,7 @@ export default [
         title: "First Couch, First Nap",
         country: "United States",
         googleMapsLink: "https://maps.app.goo.gl/Ms1yH541M6uwjpaW7",
-        dates: "19 Jan, 2024",
+        dates: "19 Feb, 2024",
         text: "We weren’t in our new house yet, but this couch would do just fine. Jasper took one end, I took the other, and we both sank into the kind of nap you only get after 3,800 miles of road. It didn’t smell like *our* place yet, but I didn’t worry. My people were still with me. I knew when the time came, they'd open the door to the real thing. And I’d walk through, tail steady, ready."
     },
     {
@@ -212,7 +212,7 @@ export default [
         title: "Two Chill Bros",
         country: "United States",
         googleMapsLink: "https://maps.app.goo.gl/sMwYK66J9z8ENKyG6",
-        dates: "02 Feb, 2024",
+        dates: "22 Mar, 2024",
         text: "Home! This couch? Yeah, this one’s mine now. Henry and I spent the afternoon just hanging out, not a care in the world. No more trucks. No more hotel crates. Just sunshine through the window and the soft rumble of someone in the kitchen. I didn’t need to explore every room. I already knew — we were home. And I wasn’t going anywhere."
     },
     {
@@ -224,7 +224,7 @@ export default [
         title: "Pantry Time",
         country: "United States",
         googleMapsLink: "https://maps.app.goo.gl/FjsrJvxb4R6x7569A",
-        dates: "04 Feb, 2024",
+        dates: "12 Apr, 2024",
         text: "I found the pantry and stepped in. It was small. Quiet. Just fit me. So I stayed a while. Nobody said anything. The house kept moving. I didn’t. I liked it there."
     },
     {
@@ -236,7 +236,7 @@ export default [
         title: "Wheels and Will",
         country: "United States",
         googleMapsLink: "https://maps.app.goo.gl/f6kD6V1sRjacXeLU7",
-        dates: "20 Mar, 2024",
+        dates: "26 May, 2024",
         text: "My back legs weren’t what they used to be, but I never stopped trying. I still swung them like they remembered the rhythm of the trail. My people got me some wheels from K9 Carts, and I rolled out like I always had—just a little different. The grass felt the same. The sun felt good. My body was slower, but my heart still kept pace. And that was enough for me."
     },
     {
@@ -248,7 +248,7 @@ export default [
         title: "Still My Spot",
         country: "United States",
         googleMapsLink: "https://maps.app.goo.gl/v5t2EVuDQohvpCDw8",
-        dates: "26 Mar, 2024",
+        dates: "11 Jun, 2024",
         text: "I made it back to the pantry. Took a little more effort this time, but I didn’t mind. Still small. Still quiet. Still mine. Wheels or not, it was where I liked to be. And nobody ever rushed me out. That’s when you know you’re home."
     },
     {
@@ -260,23 +260,71 @@ export default [
         title: "My Kind of Waiting Room",
         country: "United States",
         googleMapsLink: "https://maps.app.goo.gl/ndWHZ9Yrj3vb2GPY9",
-        dates: "02 Apr, 2024",
+        dates: "02 Jul, 2024",
         text: "At the Twin Cities Vet Clinic. Here is where Dr. Tabitha and Dr. Deb saved my life once when I almost didn’t make it. So now when I come back, I'm not scared — just quiet. They rolled me in. I rested my head and let the world go on around me. I didn’t bark. Didn’t whimper. Just waited with my tongue out and my heart full. Good place. Good people."
     },
     {
         id: "22",
+        img: {
+            src: "/images/sampson/thePack.jpg",
+            alt: "a bull dog, russle terrier and golden doodle laying peacefully in a big bed with eyes closed"
+        },
+        title: "The Pack Sleeps Easy",
+        country: "United States",
+        googleMapsLink: "https://maps.app.goo.gl/TYBvtasFnkaFgjkL8",
+        dates: "21 Aug, 2024",
+        text: "I couldn’t climb like I used to, but that didn’t mean I was left behind. My people lifted me up, like they always did — and laid me beside Jasper and Henry. We didn’t need to play or wrestle anymore. We just rested. I didn’t say much. Didn’t have to. Jasper curled at the foot like a lion. Henry kept watch by the pillow. I just breathed, slow and steady, and let the night settle over us like a blanket. A pack isn’t just who you run with — it’s who you rest beside when the day is done."
+    },
+    {
+        id: "23",
+        img: {
+            src: "/images/sampson/watching.jpg",
+            alt: "Sampson the bull dog, laying on the couch with a big bull dog smile looking ahead"
+        },
+        title: "Still Watching",
+        country: "United States",
+        googleMapsLink: "https://maps.app.goo.gl/zAXMAXJLo4fj8o9U7",
+        dates: "13 Oct, 2024",
+        text: "I didn’t move around much anymore. Didn’t need to. From this couch, I could see everything that mattered — the kitchen, the front door, my people coming and going. I watched the light shift across the floor. The Alaskan days were shorter now, getting dark ealier. Listened for the cabinet that held my treats. Sometimes they’d glance over and say, “Hey, Sampson.” Just like that. And I’d wag my tail once, maybe twice. That was enough. I didn’t need to follow them anymore. I just needed to be where they could find me. I wasn’t waiting for anything. I was just here. Still watching."
+    },
+    {
+        id: "24",
+        img: {
+            src: "/images/sampson/snowWalker.jpg",
+            alt: "Sampson sitting peacefully in a wagon on the sidewalk, looking ahead"
+        },
+        title: "Snow Walker",
+        country: "United States",
+        googleMapsLink: "https://maps.app.goo.gl/hmRhVSjvMfSX42PM7",
+        dates: "09 Nov, 2024",
+        text: "The snow was deep and the sun was sharp on the ice, but I was out there — wheels crunching slow and steady. My back legs dragged softly behind me, but I still swung them, like they remembered. I wasn’t trying to get far. I just wanted to feel the air, see the trees, leave a few tracks behind. Some dogs run. Some roll. Me? I showed up — and that was enough."
+    },
+    {
+        id: "25",
+        img: {
+            src: "/images/sampson/meAndDuck.jpg",
+            alt: "Sampson the bull dog with chin on his stuffed toy duck"
+        },
+        title: "Quiet Company",
+        country: "United States",
+        googleMapsLink: "https://maps.app.goo.gl/nk99us2UwPejJtAz6",
+        dates: "29 Nov, 2024",
+        text: "I didn’t chase toys anymore, but I still kept one close. This duck? He didn’t squeak, didn’t roll away — just stayed put. I liked that about him. We understood each other. I’d curl up in my bed, press my chin against his soft head, and rest. I wasn’t playing guard dog or keeping watch. I was just… being. Not every day needs an adventure. Some days, it’s just you, a favorite spot, and someone — or something — to keep you company while the world winds down."
+    },
+    {
+        id: "26",
         img: {
             src: "/images/sampson/alaskaStroll.jpg",
             alt: "Sampson sitting peacefully in a wagon on the sidewalk, looking ahead"
         },
         title: "The Last Stroll",
         country: "United States",
-        googleMapsLink: "https://maps.app.goo.gl/TYBvtasFnkaFgjkL8",
+        googleMapsLink: "https://maps.app.goo.gl/snYNF8ktLJY7UBL18",
         dates: "04 Apr, 2024",
-        text: "I couldn’t walk anymore, but that didn’t mean I stopped going places. My people pulled me through the neighborhood in a wagon — same breeze, same smells, same love. I didn’t need to see what was next. I just sat back, felt the wind in my ears, and knew I was exactly where I was supposed to be. I was warm. I was full. And I was never alone. If you’re reading this, thanks for walking with me. Every old dog deserves a ride like this. 🐾 – Sampson"
+        text: "This was me a few months ago.  I couldn’t walk anymore, but that didn’t mean I stopped going places. My people pulled me through the neighborhood in a wagon — same breeze, same smells, same love. I didn’t need to see what was next. I just sat back, felt the wind in my ears, and knew I was exactly where I was supposed to be. I just remember that I was warm. I was full. And I was never alone. If you’re reading this, thanks for walking with me. Every old dog deserves a ride like this. 🐾 – Sampson"
     },
     {
-        id: "23",
+        id: "27",
         img: {
             src: "/images/sampson/alaskaSleep3.jpg",
             alt: "Sampson sleeping peacefully on a cozy blanket"
