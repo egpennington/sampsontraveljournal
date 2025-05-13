@@ -201,7 +201,7 @@ export default [
         country: "United States",
         googleMapsLink: "https://maps.app.goo.gl/Ms1yH541M6uwjpaW7",
         dates: "19 Feb, 2024",
-        text: "We weren’t in our new house yet, but this couch would do just fine. Jasper took one end, I took the other, and we both sank into the kind of nap you only get after 3,800 miles of road. It didn’t smell like *our* place yet, but I didn’t worry. My people were still with me. I knew when the time came, they'd open the door to the real thing. And I’d walk through, tail steady, ready."
+        text: "We weren’t in our new house yet, but this couch would do just fine. Jasper took one end, I took the other, and we both sank into the kind of nap you only get after 4,402 miles of road. It didn’t smell like *our* place yet, but I didn’t worry. My people were still with me. I knew when the time came, they'd open the door to the real thing. And I’d walk through, tail steady, ready."
     },
     {
         id: "17",
@@ -213,7 +213,7 @@ export default [
         country: "United States",
         googleMapsLink: "https://maps.app.goo.gl/sMwYK66J9z8ENKyG6",
         dates: "22 Mar, 2024",
-        text: "Home! This couch? Yeah, this one’s mine now. Henry and I spent the afternoon just hanging out, not a care in the world. No more trucks. No more hotel crates. Just sunshine through the window and the soft rumble of someone in the kitchen. I didn’t need to explore every room. I already knew — we were home. And I wasn’t going anywhere."
+        text: "Home! This couch? Yeah, this one’s mine now. Henry and I spent the afternoon just hanging out, not a care in the world. No more trucks. No more hotels. Just sunshine through the window and the soft rumble of someone in the kitchen. I didn’t need to explore every room. I already knew — we were home. And I wasn’t going anywhere."
     },
     {
         id: "18",
