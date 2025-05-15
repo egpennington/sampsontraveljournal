@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react"
-import { doc, getDoc, updateDoc, increment } from "firebase/firestore";
+import { doc, getDoc, setDoc, updateDoc, increment } from "firebase/firestore";
 import { db } from "../src/firebase"
 
 export default function Entry(props) {
@@ -10,18 +10,41 @@ export default function Entry(props) {
   const [isVisible, setIsVisible] = useState(false)
   const [showPlayButton, setShowPlayButton] = useState(false)
 
-  const entryId = props.post.id;
-  const localStorageKey = `sampson_likes_${entryId}`;
+  const entryId = props.post.id.toString();
+  const [likes, setLikes] = useState(0);
 
-  const [likes, setLikes] = useState(() => {
-    const stored = localStorage.getItem(localStorageKey);
-    return stored ? parseInt(stored) : 12;
-  });
+  useEffect(() => {
+    const fetchLikes = async () => {
+      try {
+        const docRef = doc(db, "likes", entryId); // ✅ define this inside the function
+        const docSnap = await getDoc(docRef);
 
-  const handleLike = () => {
-    const newLikes = likes + 1;
-    setLikes(newLikes);
-    localStorage.setItem(localStorageKey, newLikes);
+        if (docSnap.exists()) {
+          setLikes(docSnap.data().count || 0);
+        } else {
+          // If no likes doc exists, create it with initial count 12
+          await setDoc(docRef, { count: 12 });
+          setLikes(12);
+        }
+      } catch (error) {
+        console.error("Error fetching or creating Firestore likes:", error);
+      }
+    };
+
+    fetchLikes();
+}, [entryId]);
+
+
+  const handleLike = async () => {
+    try {
+      const docRef = doc(db, "likes", entryId);
+      await updateDoc(docRef, {
+        count: increment(1)
+      });
+      setLikes((prev) => prev + 1);
+    } catch (error) {
+      console.error("Error updating Firestore like count:", error);
+    }
   };
 
   useEffect(() => {
