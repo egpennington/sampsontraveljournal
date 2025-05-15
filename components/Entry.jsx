@@ -1,4 +1,6 @@
 import { useState, useRef, useEffect } from "react"
+import { doc, getDoc, updateDoc, increment } from "firebase/firestore";
+import { db } from "../src/firebase"
 
 export default function Entry(props) {
 
