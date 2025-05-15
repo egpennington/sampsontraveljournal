@@ -206,14 +206,16 @@ body {
 .paw {
   display: inline-block;
   transition: transform 0.4s ease, opacity 0.4s ease;
-  opacity: 0.6;
-}
-
-.footer-tagline:hover .paw {
-  transform: scale(1.2) rotate(10deg);
   opacity: 1;
+  transform: scale(1.2) rotate(10deg);
   animation: softPulse 1.6s infinite ease-in-out;
 }
+
+/* .footer-tagline:hover .paw {
+  
+  opacity: 1;
+  animation: softPulse 1.6s infinite ease-in-out;
+} */
 
 @keyframes softPulse {
   0%, 100% {
