@@ -9,7 +9,7 @@ export default [
         country: "From Texas to Alaska",
         googleMapsLink: "https://maps.app.goo.gl/mLhTFkDUyzaETm3Y8",
         dates: "Nov 2023 – Present",
-        text: "Hi there, I’m Sam — a 9 or 10-year-old bulldog (who's counting?) with a second chance at life and a whole lot of miles under my paws. I was rescued from a shelter in Austin, Texas, gained a new name, Sampson, and traded in my kennel for road trips, belly rubs, and snowy adventures. This journal is a paw-by-paw recap of my travels across North America. Let’s go!\n\n**Tagline: Unleash Adventure.**"
+        text: "Hi there, I’m Sam — a 9 or 10-year-old bulldog (who's counting?) with a second chance at life and a whole lot of miles under my paws. I was rescued from a shelter in Austin, Texas, gained a new name, Sampson, and traded in my kennel for road trips, belly rubs, and snowy adventures. This journal is a paw-by-paw recap of my travels across North America. Let’s go! #Unleash Adventure."
     },    
     {
         id: 1,
@@ -335,4 +335,5 @@ export default [
         dates: "Now & Always",
         text: "The house was quiet. I had a soft blanket, my favorite people close, and nothing left to chase. I didn’t wonder what came next — I just let my eyes close and knew I was home. If you ever find an old soul like me, hold them close. We don’t ask for much. Just love, a full belly, and someone to walk beside us, all the way to the end. 🐾 — Sampson"
     }      
+
 ]
